@@ -7,7 +7,6 @@ package commandpattern;
  * This pattern encapsulates a request by binding together a set of actions on the
  * receiver, it packages them into one object and exposes just method execute().
  * Other actions do not know what actions are called on the receiver.
- * 
  */
 public class RemoteControlTest {
 
