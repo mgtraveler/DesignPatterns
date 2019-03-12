@@ -10,7 +10,7 @@ public class Reader {
 		int c;
 		String path = "src/iodecoratorpattern/text.txt";
 		try (FileInputStream fin = new FileInputStream(path);
-				InputStream in = new LowerCaseInputSteram(new BufferedInputStream(fin))) {
+				InputStream in = new LowerCaseInputStream(new BufferedInputStream(fin))) {
 			while ((c = in.read()) >= 0) {
 				System.out.print((char) c);
 			}

@@ -1,7 +1,5 @@
 package commandpattern;
 
-import java.util.concurrent.Callable;
-
 public class RemoteControl {
     Command[] onCommands;
     Command[] offCommands;
